@@ -31,9 +31,9 @@ model Breed {
   catId Int @unique
   descript String
   traits String[]
-  lifespan Int
+  lifespan String
   origin String
-  weight Int
+  weight String
 }
 
 // model Favorite {
