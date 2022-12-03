@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Breed" ALTER COLUMN "lifespan" SET DATA TYPE TEXT,
+ALTER COLUMN "weight" SET DATA TYPE TEXT;
