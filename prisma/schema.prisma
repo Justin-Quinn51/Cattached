@@ -29,6 +29,7 @@ model Breed {
   id Int @id @default(autoincrement())
   cat Cat @relation(fields: [catId], references: [id])
   catId Int @unique
+  type String?
   descript String
   traits String[]
   lifespan String
