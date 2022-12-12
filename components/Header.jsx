@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "../public/Logo.png";
+import LoginButton from "./Login-btn";
 
 export default function Header() {
   return (
@@ -41,14 +42,7 @@ export default function Header() {
             <a href="#">Contact</a>
           </li>
           <li>
-            <button className="bg-red-600 rounded-lg px-3 py-1.5 cursor-pointer">
-              Sign Up
-            </button>
-          </li>
-          <li>
-            <button className="bg-red-600 rounded-lg px-3 py-1.5 cursor-pointer">
-              Log In
-            </button>
+            <LoginButton />
           </li>
         </ul>
       </nav>

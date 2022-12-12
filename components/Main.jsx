@@ -1,9 +1,5 @@
-export default function Main({ breeds }) {
-  return (
-    <ul>
-      {breeds.map((breed) => (
-        <li key={breed.id}>{breed.type}</li>
-      ))}
-    </ul>
-  );
+import breeds from "../prisma/breeds";
+
+export default function Main() {
+  return <></>;
 }
